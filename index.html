@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primer formulario</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <H1>Formulario</H1>
+      <h1 style="color: red;">CONSULTAS</h1>
+      <hr>
     </header>
     <main>
-        <form action="">
-
-        </form>
+        <h2>DATOS PERSONALES</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="nombres"></label>
+            <input type="text" id="nombres" name="nombres" required placeholder="NOMBRES" />
+          </td>
+          <td>
+            <label for="apellidos"></label>
+            <input type="text" id="apellidos" name="apellidos" required placeholder="APELLIDOS" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dni"></label>
+            <input type="number" id="dni" name="dni" required placeholder="DNI" />
+          </td>
+          <td>
+            <label for="telefono"></label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="TELEFONO" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="celular"></label>
+            <input type="tel" id="celular" name="celular" required placeholder="CELULAR" />
+          </td>
+          <td>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" required placeholder="EMAIL" />
+          </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="direccion"></label>
+                <input type="text" id="direccion" name="direccion" required placeholder="DIRECCIÓN" />
+        </tr>
+      </table>
     </main>
-</body>
+  </body>
 </html>
